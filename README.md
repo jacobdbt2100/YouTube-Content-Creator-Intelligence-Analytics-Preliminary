@@ -68,14 +68,13 @@ videos 1 --- * video_daily_stats
 
 ## Data Collection Frequency
 
-**Once / When Discovered**
-- creators
-- videos
-- video_category
+```text
+# Once / When Discovered
+tables: creators | videos | video_category
 
-**Daily**
-- creator_daily_stats
-- video_daily_stats
+# Daily
+tables: creator_daily_stats | video_daily_stats
+```
 
 ## Modelling Concepts Covered
 
