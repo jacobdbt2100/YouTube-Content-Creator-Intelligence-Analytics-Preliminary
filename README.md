@@ -55,7 +55,7 @@ ___
 | like_count      | Number of likes                    |
 | comment_count   | Number of comments                 |
 
-## Relationships
+## Table Relationships
 
 ```text
 creators 1 --- * videos
