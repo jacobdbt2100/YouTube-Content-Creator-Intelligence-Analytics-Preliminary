@@ -2,6 +2,8 @@
 Analyzing how content performance, audience engagement, content characteristics, categories, and creator growth change over time.
 ___
 
+## Tables
+
 **1. creators**
 
 | Attribute       | Description                               |
@@ -11,7 +13,6 @@ ___
 | description     | Channel description                       |
 | channel_url     | URL of the channel                        |
 | country         | Channel's country                         |
-| category        | Channel category                          |
 | created_at      | Channel creation date/time                |
 
 **2. creator_daily_stats**
@@ -53,3 +54,44 @@ ___
 | view_count      | Number of views                    |
 | like_count      | Number of likes                    |
 | comment_count   | Number of comments                 |
+
+## Relationships
+
+```text
+creators 1 --- * videos
+creators 1 --- * creator_daily_stats
+
+video_category 1 --- * videos
+
+videos 1 --- * video_daily_stats
+```
+
+## Data Collection Frequency
+
+**Once / When Discovered**
+- creators
+- videos
+- video_category
+
+**Daily**
+- creator_daily_stats
+- video_daily_stats
+
+## Modelling Concepts Covered
+
+- Normalization
+- Primary/foreign keys
+- Reference/lookup table
+- Dimension-style tables
+- Historical fact/snapshot tables
+- One-to-many relationships
+- Separation of static metadata from changing metrics
+
+
+
+
+
+
+
+
+
