@@ -91,32 +91,33 @@ youtube_content_creator_intelligence/
 │
 ├── .env
 ├── .gitignore
-├── requirements.txt
 ├── README.md
-│
 ├── main.py
+├── requirements.txt
+│
+├── csv_output/
+│   ├── creators.csv
+│   ├── creator_daily_stats.csv
+│   ├── video_category.csv
+│   ├── video_daily_stats.csv
+│   └── videos.csv
 │
 ├── extraction/
-│   ├── youtube_client.py
-│   ├── creators.py
+│   ├── __init__.py
 │   ├── creator_daily_stats.py
-│   ├── video_category.py
-│   ├── videos.py
-│   └── video_daily_stats.py
-│
-├── transformation/
 │   ├── creators.py
-│   ├── creator_daily_stats.py
 │   ├── video_category.py
+│   ├── video_daily_stats.py
 │   ├── videos.py
-│   └── video_daily_stats.py
+│   └── youtube_client.py
 │
-└── csv_output/
-    ├── creators.csv
-    ├── creator_daily_stats.csv
-    ├── video_category.csv
-    ├── videos.csv
-    └── video_daily_stats.csv
+└── transformation/
+    ├── __init__.py
+    ├── creator_daily_stats.py
+    ├── creators.py
+    ├── video_category.py
+    ├── video_daily_stats.py
+    └── videos.py
 ```
 
 
