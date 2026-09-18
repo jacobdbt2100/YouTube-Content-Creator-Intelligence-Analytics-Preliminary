@@ -84,9 +84,40 @@ ___
 - One-to-many relationships
 - Separation of static metadata from changing metrics
 
+## Repository Structure
 
-
-
+```text
+youtube_content_creator_intelligence/
+│
+├── .env
+├── .gitignore
+├── requirements.txt
+├── README.md
+│
+├── main.py
+│
+├── extraction/
+│   ├── youtube_client.py
+│   ├── creators.py
+│   ├── creator_daily_stats.py
+│   ├── video_category.py
+│   ├── videos.py
+│   └── video_daily_stats.py
+│
+├── transformation/
+│   ├── creators.py
+│   ├── creator_daily_stats.py
+│   ├── video_category.py
+│   ├── videos.py
+│   └── video_daily_stats.py
+│
+└── csv_output/
+    ├── creators.csv
+    ├── creator_daily_stats.csv
+    ├── video_category.csv
+    ├── videos.csv
+    └── video_daily_stats.csv
+```
 
 
 
