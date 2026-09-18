@@ -57,24 +57,22 @@ ___
 
 ## Table Relationships
 
-```text
-creators 1 --- * videos
-creators 1 --- * creator_daily_stats
-
-video_category 1 --- * videos
-
-videos 1 --- * video_daily_stats
-```
+| Parent Table         | Relationship | Child Table        | Foreign Key   |
+|-------------------|--------------|-----------------------|---------------|
+| `creators`        | 1 → *        | `videos`              | channel_id    |
+| `creators`        | 1 → *        | `creator_daily_stats` | channel_id    |
+| `video_category`  | 1 → *        | `videos`              | category_id   |
+| `videos`          | 1 → *        | `video_daily_stats`   | video_id      |
 
 ## Data Collection Frequency
 
-```text
-# Once / When Discovered
-tables: creators | videos | video_category
-
-# Daily
-tables: creator_daily_stats | video_daily_stats
-```
+| Table                 | Extraction Frequency    |
+| --------------------- | ----------------------- |
+| `creators`            | Once / When Discovered  |
+| `videos`              | Once / When Discovered  |
+| `video_category`      | Once / When Discovered  |
+| `creator_daily_stats` | Daily                   |
+| `video_daily_stats`   | Daily                   |
 
 ## Modelling Concepts Utilised
 
