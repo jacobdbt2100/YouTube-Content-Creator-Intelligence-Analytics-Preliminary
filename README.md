@@ -76,7 +76,7 @@ tables: creators | videos | video_category
 tables: creator_daily_stats | video_daily_stats
 ```
 
-## Modelling Concepts Covered
+## Modelling Concepts Utilised
 
 - Normalization
 - Primary/foreign keys
