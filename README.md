@@ -2,7 +2,7 @@
 Analyzing how content performance, audience engagement, content characteristics, categories, and creator growth change over time.
 ___
 
-1. creators
+**1. creators**
 
 | Attribute       | Description                               |
 | --------------- | ----------------------------------------- |
@@ -14,7 +14,7 @@ ___
 | category        | Channel category                          |
 | created_at      | Channel creation date/time                |
 
-2. creator_daily_stats
+**2. creator_daily_stats**
 
 | Attribute        | Description                        |
 | ---------------- | ---------------------------------- |
@@ -24,14 +24,14 @@ ___
 | total_view_count | Total views across the channel     |
 | video_count      | Number of videos on the channel    |
 
-3. video_category
+**3. video_category**
 
 | Attribute        | Description                              |
 | ---------------- | ---------------------------------------- |
 | category_id (PK) | Unique identifier for the video category |
 | category         | Name of the video category               |
 
-4. videos
+**4. videos**
 
 | Attribute        | Description                                |
 | ---------------- | ------------------------------------------ |
@@ -44,7 +44,7 @@ ___
 | video_url        | URL of the video                           |
 | collected_at     | Date and time the video data was collected |
 
-5. video_daily_stats
+**5. video_daily_stats**
 
 | Attribute       | Description                        |
 | --------------- | ---------------------------------- |
