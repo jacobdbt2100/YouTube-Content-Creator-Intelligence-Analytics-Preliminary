@@ -10,10 +10,6 @@ ___
 | --------------- | ----------------------------------------- |
 | channel_id (PK) | Unique identifier for the YouTube channel |
 | channel_name    | Name of the channel                       |
-| description     | Channel description                       |
-| channel_url     | URL of the channel                        |
-| country         | Channel's country                         |
-| created_at      | Channel creation date/time                |
 
 **2. creator_daily_stats**
 
