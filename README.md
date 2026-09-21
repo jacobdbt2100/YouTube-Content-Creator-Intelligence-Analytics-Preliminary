@@ -1,5 +1,5 @@
 # YouTube Content Creator Real-Time Intelligence Analytics Preliminary
-Analyzing how content performance, audience engagement, content characteristics, categories, and creator growth change over time.
+An incremental data pipeline for collecting, transforming, and analyzing YouTube creator and content data.
 ___
 
 ## Tables
