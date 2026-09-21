@@ -1,4 +1,4 @@
-# YouTube Content Creator Real-Time Intelligence Analytics Preliminary
+# For Tutorials - Youtube Content Intelligence Pipeline
 An incremental data pipeline for collecting, transforming, and analyzing YouTube creator and content data.
 ___
 
@@ -83,12 +83,14 @@ ___
 ## Repository Structure
 
 ```text
-youtube_content_creator_intelligence/
+youtube-content-intelligence-pipeline/
 │
 ├── .env
 ├── .gitignore
 ├── README.md
 ├── main.py
+├── reference_data_main.py
+├── test_main.py
 ├── requirements.txt
 │
 ├── csv_output/
